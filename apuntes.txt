@@ -1,0 +1,25 @@
+git init
+
+git add => stage
+git rm => out stage
+git rm --cached => delete from ram and staging
+git rm --force => delete from git staging and work directory
+git commit -m "message" => send to repository
+git status => check the status
+git config:
+	git config --global user.name "daniel caamal"
+	git config --global user.email "danielcaamal97@gmail.com"
+
+git log => historial changes
+git log --stat => historial changes in bites
+git show => see the historial changes with verbose
+git reset <#commit> --hard => delete from staging and repository
+git reset <#commit> --soft => delete form repository keep staging
+git reset HEAD => delete HEAD before commit, delete from staging, change staging to unstaged
+git diff <#commit> <#commit> => diferences between two commitsi
+git checkout <#commit> <file> => get the commit version, keep staging
+git checkout master <file> => get the last file before doing the first checkout
+git clone url => remote repository init
+git push => set file from local repository to remote repository
+git pull = git fetch + git merge => get file from remote repository to local repository and work directory
+
