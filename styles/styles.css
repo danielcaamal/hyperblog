@@ -24,11 +24,11 @@ body{
 }
 
 #container{
-    width: auto;
+    width: 70%;
     text-align: left;
     border: 1px solid #000;
     margin: 0 auto;
-    padding: 15px 15px;
+    padding: 1em;
 }
 
 #container h1{
@@ -36,5 +36,5 @@ body{
 }
 
 #container p{
-   font-style: italic; 
+    font-style: italic; 
 }
