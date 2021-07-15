@@ -38,3 +38,7 @@ body{
 #container p{
     font-style: italic; 
 }
+
+#p_merge{
+    font-weight: bold;
+}
